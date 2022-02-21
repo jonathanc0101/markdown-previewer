@@ -94,7 +94,7 @@ function Editor(props) {
             📋
           </Button>
         </ButtonGroup>
-        <textarea
+        <textarea 
           style={textAreaStyle}
           value={text}
           name="editor"

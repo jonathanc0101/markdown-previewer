@@ -21,7 +21,7 @@ function Previewer(props) {
       <h2 className="h-15" style={titleStyle}>
         How it looks:
       </h2>
-      <Container style={{ ...markDownStyle }}>
+      <Container id="preview" style={{ ...markDownStyle }}>
         <Markdown>{props.editorText}</Markdown>
       </Container>
     </div>
